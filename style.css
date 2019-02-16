@@ -1,0 +1,95 @@
+/*header section for index.html page*/
+header{
+  display: block;
+  width: 95%;
+  background-color: #335aff;
+  color: #fff;
+  margin: 1% auto;
+  padding: 2%;
+  text-align: center;
+  font-size: 40px;
+}
+a img{
+  display: block;
+  width: 40px;
+  height: auto;
+  margin: 0 3px 0 auto;
+  padding: 1%;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid #ddd;
+}
+.ca{
+  border:2px solid #ddd;
+  width: 85%;
+  margin: 2%;
+  padding: 2%;
+    background-image: url("images/music.svg");
+}
+.s1{
+  width: 40%;
+  border: 2px solid #ddd;
+  margin: 2%;
+  padding: 2%;
+    background-image: url("images/music.svg");
+}
+select,input{
+  width: 90%;
+  margin: 1%;
+  padding: 1%;
+}
+.parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid 3ddd;
+};
+.child{
+  width: 20%;
+  border: 2px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+}
+img{
+  display: block;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%
+}
+h1,a,h4{
+  text-align: center;
+}
+/*resume.html page*/
+.main1{
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  border: 20px solid #ddd;
+}
+.left{
+  width: 45%;
+  margin: 2%;
+  padding: 2%;
+  border: 2px solid #ddd;
+    background-color: orange;
+}
+.right{
+  width: 65%;
+  margin: 2%;
+  padding: 2%;
+  border: 2px solid #ddd;
+  background-color: green;
+}
+p{
+  /*text-align: center;*/
+  font-size: 20px;
+}
+li{
+  font-size: 25px;
+
+}
